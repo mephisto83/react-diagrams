@@ -5,5 +5,7 @@ import { Application } from './Application';
 
 export default () => {
 	var app = new Application();
-	return <BodyWidget app={app} />;
+	return <BodyWidget app={app} onDeserialize={(str: string) => {
+		app.deserialize(str);
+	}} />;
 };
