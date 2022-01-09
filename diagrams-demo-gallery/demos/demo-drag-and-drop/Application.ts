@@ -1,4 +1,5 @@
 import * as SRD from '@projectstorm/react-diagrams';
+import { RQFactory } from './components/KIKNodeModel';
 
 /**
  * @author Dylan Vorster
@@ -9,6 +10,8 @@ export class Application {
 
 	constructor() {
 		this.diagramEngine = SRD.default();
+		// register our label factory
+		this.diagramEngine.getNodeFactories().registerFactory(new RQFactory());
 		this.newModel();
 	}
 	public deserialize(str: string) {

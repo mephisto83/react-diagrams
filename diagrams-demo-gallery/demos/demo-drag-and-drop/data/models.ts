@@ -7395,7 +7395,7 @@ export default [
                 "Label": 1,
                 "nodeType": 1,
                 "groups": 1,
-                "Pinned": 5
+                "Pinned": 7
             },
             "properties": {
                 "text": "Policy Information",
@@ -7421,12 +7421,13 @@ export default [
                     "Pinned": true,
                     "uiAttributeType": true,
                     "groupParent": true,
-                    "text": true
+                    "text": true,
+                    "IsValueLabel": true
                 },
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 6,
+                    "Pinned": 8,
                     "uiAttributeType": 2,
                     "groupParent": 1,
                     "codeName": 2,
@@ -7435,7 +7436,8 @@ export default [
                     "cssName": 2,
                     "HttpRoute": 2,
                     "uiName": 2,
-                    "Label": 2
+                    "Label": 2,
+                    "IsValueLabel": 2
                 },
                 "properties": {
                     "text": "Rating State",
@@ -7449,7 +7451,8 @@ export default [
                     "cssName": "rating-state",
                     "HttpRoute": "rating/state",
                     "uiName": "Rating State",
-                    "Label": "Rating State"
+                    "Label": "Rating State",
+                    "IsValueLabel": false
                 }
             },
             {
@@ -7464,7 +7467,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 6,
+                    "Pinned": 8,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -7502,7 +7505,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 6,
+                    "Pinned": 8,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -7540,7 +7543,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 6,
+                    "Pinned": 8,
                     "uiAttributeType": 2,
                     "groupParent": 1,
                     "codeName": 2,
@@ -7578,7 +7581,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 6,
+                    "Pinned": 8,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -7616,7 +7619,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 5,
+                    "Pinned": 7,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -7654,7 +7657,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 5,
+                    "Pinned": 7,
                     "uiAttributeType": 2,
                     "groupParent": 1,
                     "codeName": 2,
@@ -7692,7 +7695,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 5,
+                    "Pinned": 7,
                     "uiAttributeType": 2,
                     "groupParent": 1,
                     "codeName": 2,
@@ -7731,7 +7734,7 @@ export default [
                 "propertyVersions": {
                     "text": 5,
                     "nodeType": 1,
-                    "Pinned": 5,
+                    "Pinned": 7,
                     "uiAttributeType": 2,
                     "groupParent": 1,
                     "codeName": 4,
@@ -7771,7 +7774,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 5,
+                    "Pinned": 7,
                     "uiAttributeType": 2,
                     "groupParent": 1,
                     "codeName": 2,
@@ -7813,7 +7816,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 5,
+                    "Pinned": 7,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -7851,7 +7854,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 2,
+                    "Pinned": 4,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -7889,7 +7892,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 2,
+                    "Pinned": 4,
                     "uiAttributeType": 2,
                     "groupParent": 1,
                     "codeName": 2,
@@ -7927,7 +7930,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 2,
+                    "Pinned": 4,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -7965,7 +7968,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 2,
+                    "Pinned": 4,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -8003,7 +8006,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 2,
+                    "Pinned": 4,
                     "uiAttributeType": 2,
                     "groupParent": 1,
                     "codeName": 2,
@@ -8041,7 +8044,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 2,
+                    "Pinned": 4,
                     "uiAttributeType": 2,
                     "groupParent": 1,
                     "codeName": 2,
@@ -8079,7 +8082,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 2,
+                    "Pinned": 4,
                     "uiAttributeType": 2,
                     "groupParent": 1,
                     "codeName": 2,
@@ -8117,7 +8120,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 2,
+                    "Pinned": 4,
                     "uiAttributeType": 2,
                     "groupParent": 1,
                     "codeName": 2,
@@ -8155,7 +8158,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 2,
+                    "Pinned": 4,
                     "uiAttributeType": 2,
                     "groupParent": 1,
                     "codeName": 2,
@@ -8193,7 +8196,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 2,
+                    "Pinned": 4,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -8243,7 +8246,7 @@ export default [
                 "uiName": 1,
                 "Label": 1,
                 "groups": 1,
-                "Pinned": 6,
+                "Pinned": 7,
                 "hasLogicalChildren": 1,
                 "logicalChildrenTypes": 2
             },
@@ -8260,7 +8263,7 @@ export default [
                 "groups": {
                     "group": "d73d904b-a989-4605-9788-64d768c29b6e"
                 },
-                "Pinned": true,
+                "Pinned": false,
                 "hasLogicalChildren": true,
                 "logicalChildrenTypes": []
             }
@@ -8278,7 +8281,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 7,
+                    "Pinned": 8,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -8292,7 +8295,7 @@ export default [
                 "properties": {
                     "text": "First Name",
                     "nodeType": "model-property",
-                    "Pinned": true,
+                    "Pinned": false,
                     "uiAttributeType": "STRING",
                     "groupParent": "d73d904b-a989-4605-9788-64d768c29b6e",
                     "codeName": "FirstName",
@@ -8317,7 +8320,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 7,
+                    "Pinned": 8,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -8332,7 +8335,7 @@ export default [
                 "properties": {
                     "text": "Gender",
                     "nodeType": "model-property",
-                    "Pinned": true,
+                    "Pinned": false,
                     "uiAttributeType": "STRING",
                     "groupParent": "d73d904b-a989-4605-9788-64d768c29b6e",
                     "codeName": "Gender",
@@ -8358,7 +8361,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 7,
+                    "Pinned": 8,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -8373,7 +8376,7 @@ export default [
                 "properties": {
                     "text": "Relationship to Insured",
                     "nodeType": "model-property",
-                    "Pinned": true,
+                    "Pinned": false,
                     "uiAttributeType": "STRING",
                     "groupParent": "d73d904b-a989-4605-9788-64d768c29b6e",
                     "codeName": "RelationshiptoInsured",
@@ -8398,7 +8401,7 @@ export default [
                 "propertyVersions": {
                     "text": 4,
                     "nodeType": 1,
-                    "Pinned": 7,
+                    "Pinned": 8,
                     "uiAttributeType": 2,
                     "groupParent": 1,
                     "codeName": 3,
@@ -8412,7 +8415,7 @@ export default [
                 "properties": {
                     "text": "Birth Date",
                     "nodeType": "model-property",
-                    "Pinned": true,
+                    "Pinned": false,
                     "uiAttributeType": "DATETIME",
                     "groupParent": "d73d904b-a989-4605-9788-64d768c29b6e",
                     "codeName": "BirthDate",
@@ -8437,7 +8440,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 7,
+                    "Pinned": 8,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -8452,7 +8455,7 @@ export default [
                 "properties": {
                     "text": "House Hold Status",
                     "nodeType": "model-property",
-                    "Pinned": true,
+                    "Pinned": false,
                     "uiAttributeType": "STRING",
                     "groupParent": "d73d904b-a989-4605-9788-64d768c29b6e",
                     "codeName": "HouseHoldStatus",
@@ -8477,7 +8480,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 7,
+                    "Pinned": 8,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -8491,7 +8494,7 @@ export default [
                 "properties": {
                     "text": "Last Name",
                     "nodeType": "model-property",
-                    "Pinned": true,
+                    "Pinned": false,
                     "uiAttributeType": "STRING",
                     "groupParent": "d73d904b-a989-4605-9788-64d768c29b6e",
                     "codeName": "LastName",
@@ -8515,7 +8518,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 7,
+                    "Pinned": 8,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -8529,7 +8532,7 @@ export default [
                 "properties": {
                     "text": "Middle Name",
                     "nodeType": "model-property",
-                    "Pinned": true,
+                    "Pinned": false,
                     "uiAttributeType": "STRING",
                     "groupParent": "d73d904b-a989-4605-9788-64d768c29b6e",
                     "codeName": "MiddleName",
@@ -8554,7 +8557,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 7,
+                    "Pinned": 8,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -8569,7 +8572,7 @@ export default [
                 "properties": {
                     "text": "Marital Status",
                     "nodeType": "model-property",
-                    "Pinned": true,
+                    "Pinned": false,
                     "uiAttributeType": "STRING",
                     "groupParent": "d73d904b-a989-4605-9788-64d768c29b6e",
                     "codeName": "MaritalStatus",
@@ -8595,7 +8598,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 7,
+                    "Pinned": 8,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -8610,7 +8613,7 @@ export default [
                 "properties": {
                     "text": "Licensed State",
                     "nodeType": "model-property",
-                    "Pinned": true,
+                    "Pinned": false,
                     "uiAttributeType": "STRING",
                     "groupParent": "d73d904b-a989-4605-9788-64d768c29b6e",
                     "codeName": "LicensedState",
@@ -8636,7 +8639,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 7,
+                    "Pinned": 8,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -8651,7 +8654,7 @@ export default [
                 "properties": {
                     "text": "Age When First Licensed",
                     "nodeType": "model-property",
-                    "Pinned": true,
+                    "Pinned": false,
                     "uiAttributeType": "STRING",
                     "groupParent": "d73d904b-a989-4605-9788-64d768c29b6e",
                     "codeName": "AgeWhenFirstLicensed",
@@ -8677,7 +8680,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 7,
+                    "Pinned": 8,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -8692,7 +8695,7 @@ export default [
                 "properties": {
                     "text": "Occupation",
                     "nodeType": "model-property",
-                    "Pinned": true,
+                    "Pinned": false,
                     "uiAttributeType": "STRING",
                     "groupParent": "d73d904b-a989-4605-9788-64d768c29b6e",
                     "codeName": "Occupation",
@@ -8718,7 +8721,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 7,
+                    "Pinned": 8,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -8733,7 +8736,7 @@ export default [
                 "properties": {
                     "text": "Business Industry",
                     "nodeType": "model-property",
-                    "Pinned": true,
+                    "Pinned": false,
                     "uiAttributeType": "STRING",
                     "groupParent": "d73d904b-a989-4605-9788-64d768c29b6e",
                     "codeName": "BusinessIndustry",
@@ -8759,7 +8762,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 7,
+                    "Pinned": 8,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -8774,7 +8777,7 @@ export default [
                 "properties": {
                     "text": "Highest Level Of Education Completed",
                     "nodeType": "model-property",
-                    "Pinned": true,
+                    "Pinned": false,
                     "uiAttributeType": "STRING",
                     "groupParent": "d73d904b-a989-4605-9788-64d768c29b6e",
                     "codeName": "HighestLevelOfEducationCompleted",
@@ -8799,7 +8802,7 @@ export default [
                 "propertyVersions": {
                     "text": 4,
                     "nodeType": 1,
-                    "Pinned": 7,
+                    "Pinned": 8,
                     "uiAttributeType": 2,
                     "groupParent": 1,
                     "codeName": 3,
@@ -8813,7 +8816,7 @@ export default [
                 "properties": {
                     "text": "SR 22 Filing",
                     "nodeType": "model-property",
-                    "Pinned": true,
+                    "Pinned": false,
                     "uiAttributeType": "BOOLEAN",
                     "groupParent": "d73d904b-a989-4605-9788-64d768c29b6e",
                     "codeName": "SR22Filing",
@@ -8837,7 +8840,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 7,
+                    "Pinned": 8,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -8851,7 +8854,7 @@ export default [
                 "properties": {
                     "text": "License Number",
                     "nodeType": "model-property",
-                    "Pinned": true,
+                    "Pinned": false,
                     "uiAttributeType": "STRING",
                     "groupParent": "d73d904b-a989-4605-9788-64d768c29b6e",
                     "codeName": "LicenseNumber",
@@ -8875,7 +8878,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 7,
+                    "Pinned": 8,
                     "uiAttributeType": 2,
                     "groupParent": 1,
                     "codeName": 2,
@@ -8889,7 +8892,7 @@ export default [
                 "properties": {
                     "text": "Revoked License",
                     "nodeType": "model-property",
-                    "Pinned": true,
+                    "Pinned": false,
                     "uiAttributeType": "BOOLEAN",
                     "groupParent": "d73d904b-a989-4605-9788-64d768c29b6e",
                     "codeName": "RevokedLicense",
@@ -8915,7 +8918,7 @@ export default [
                 "propertyVersions": {
                     "text": 4,
                     "nodeType": 1,
-                    "Pinned": 11,
+                    "Pinned": 12,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 3,
@@ -8930,7 +8933,7 @@ export default [
                 "properties": {
                     "text": "Actual Relationship To Insured",
                     "nodeType": "model-property",
-                    "Pinned": true,
+                    "Pinned": false,
                     "uiAttributeType": "STRING",
                     "groupParent": "d73d904b-a989-4605-9788-64d768c29b6e",
                     "codeName": "ActualRelationshipToInsured",
@@ -8956,7 +8959,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 2,
+                    "Pinned": 3,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -8971,7 +8974,7 @@ export default [
                 "properties": {
                     "text": "Driver License Type",
                     "nodeType": "model-property",
-                    "Pinned": true,
+                    "Pinned": false,
                     "uiAttributeType": "STRING",
                     "groupParent": "d73d904b-a989-4605-9788-64d768c29b6e",
                     "codeName": "DriverLicenseType",
@@ -8997,7 +9000,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 2,
+                    "Pinned": 3,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -9012,7 +9015,7 @@ export default [
                 "properties": {
                     "text": "Driver License Status",
                     "nodeType": "model-property",
-                    "Pinned": true,
+                    "Pinned": false,
                     "uiAttributeType": "STRING",
                     "groupParent": "d73d904b-a989-4605-9788-64d768c29b6e",
                     "codeName": "DriverLicenseStatus",
@@ -9038,7 +9041,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 2,
+                    "Pinned": 3,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -9053,7 +9056,7 @@ export default [
                 "properties": {
                     "text": "Senior Driver Course",
                     "nodeType": "model-property",
-                    "Pinned": true,
+                    "Pinned": false,
                     "uiAttributeType": "STRING",
                     "groupParent": "d73d904b-a989-4605-9788-64d768c29b6e",
                     "codeName": "SeniorDriverCourse",
@@ -9079,7 +9082,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 2,
+                    "Pinned": 3,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -9094,7 +9097,7 @@ export default [
                 "properties": {
                     "text": "Waive PIP Income Loss Benefits",
                     "nodeType": "model-property",
-                    "Pinned": true,
+                    "Pinned": false,
                     "uiAttributeType": "STRING",
                     "groupParent": "d73d904b-a989-4605-9788-64d768c29b6e",
                     "codeName": "WaivePIPIncomeLossBenefits",
@@ -9120,7 +9123,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 2,
+                    "Pinned": 3,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -9135,7 +9138,7 @@ export default [
                 "properties": {
                     "text": "Good Student",
                     "nodeType": "model-property",
-                    "Pinned": true,
+                    "Pinned": false,
                     "uiAttributeType": "STRING",
                     "groupParent": "d73d904b-a989-4605-9788-64d768c29b6e",
                     "codeName": "GoodStudent",
@@ -9161,7 +9164,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 2,
+                    "Pinned": 3,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -9176,7 +9179,7 @@ export default [
                 "properties": {
                     "text": "Distant Student",
                     "nodeType": "model-property",
-                    "Pinned": true,
+                    "Pinned": false,
                     "uiAttributeType": "STRING",
                     "groupParent": "d73d904b-a989-4605-9788-64d768c29b6e",
                     "codeName": "DistantStudent",
@@ -9204,7 +9207,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 1,
+                    "Pinned": 2,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -9221,7 +9224,7 @@ export default [
                 "properties": {
                     "text": "SR 22 Filings",
                     "nodeType": "model-property",
-                    "Pinned": true,
+                    "Pinned": false,
                     "uiAttributeType": "STRING",
                     "groupParent": "d73d904b-a989-4605-9788-64d768c29b6e",
                     "codeName": "SR22Filings",
@@ -9258,7 +9261,7 @@ export default [
                 "Label": 1,
                 "nodeType": 3,
                 "groups": 1,
-                "Pinned": 3
+                "Pinned": 7
             },
             "properties": {
                 "text": "House Hold Vehicles",
@@ -9284,12 +9287,13 @@ export default [
                     "Pinned": true,
                     "uiAttributeType": true,
                     "groupParent": true,
-                    "text": true
+                    "text": true,
+                    "IsValueLabel": true
                 },
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 6,
+                    "Pinned": 10,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -9298,7 +9302,8 @@ export default [
                     "cssName": 2,
                     "HttpRoute": 2,
                     "uiName": 2,
-                    "Label": 2
+                    "Label": 2,
+                    "IsValueLabel": 1
                 },
                 "properties": {
                     "text": "Make",
@@ -9312,7 +9317,8 @@ export default [
                     "cssName": "make",
                     "HttpRoute": "make",
                     "uiName": "Make",
-                    "Label": "Make"
+                    "Label": "Make",
+                    "IsValueLabel": true
                 }
             },
             {
@@ -9322,12 +9328,13 @@ export default [
                     "Pinned": true,
                     "uiAttributeType": true,
                     "groupParent": true,
-                    "text": true
+                    "text": true,
+                    "IsValueLabel": true
                 },
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 6,
+                    "Pinned": 10,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -9336,7 +9343,8 @@ export default [
                     "cssName": 2,
                     "HttpRoute": 2,
                     "uiName": 2,
-                    "Label": 2
+                    "Label": 2,
+                    "IsValueLabel": 1
                 },
                 "properties": {
                     "text": "Model",
@@ -9350,7 +9358,8 @@ export default [
                     "cssName": "model",
                     "HttpRoute": "model",
                     "uiName": "Model",
-                    "Label": "Model"
+                    "Label": "Model",
+                    "IsValueLabel": true
                 }
             },
             {
@@ -9360,12 +9369,13 @@ export default [
                     "Pinned": true,
                     "uiAttributeType": true,
                     "groupParent": true,
-                    "text": true
+                    "text": true,
+                    "IsValueLabel": true
                 },
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 6,
+                    "Pinned": 10,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -9374,7 +9384,8 @@ export default [
                     "cssName": 2,
                     "HttpRoute": 2,
                     "uiName": 2,
-                    "Label": 2
+                    "Label": 2,
+                    "IsValueLabel": 1
                 },
                 "properties": {
                     "text": "Year",
@@ -9388,7 +9399,8 @@ export default [
                     "cssName": "year",
                     "HttpRoute": "year",
                     "uiName": "Year",
-                    "Label": "Year"
+                    "Label": "Year",
+                    "IsValueLabel": true
                 }
             },
             {
@@ -9404,7 +9416,7 @@ export default [
                 "propertyVersions": {
                     "text": 4,
                     "nodeType": 1,
-                    "Pinned": 6,
+                    "Pinned": 10,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 3,
@@ -9444,7 +9456,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 3,
+                    "Pinned": 7,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -9482,7 +9494,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 3,
+                    "Pinned": 7,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -9521,7 +9533,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 3,
+                    "Pinned": 7,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -9561,7 +9573,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 3,
+                    "Pinned": 7,
                     "uiAttributeType": 2,
                     "groupParent": 1,
                     "codeName": 2,
@@ -9599,7 +9611,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 3,
+                    "Pinned": 7,
                     "uiAttributeType": 3,
                     "groupParent": 1,
                     "codeName": 2,
@@ -9637,7 +9649,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 3,
+                    "Pinned": 7,
                     "uiAttributeType": 2,
                     "groupParent": 1,
                     "codeName": 2,
@@ -9676,7 +9688,7 @@ export default [
                 "propertyVersions": {
                     "text": 4,
                     "nodeType": 1,
-                    "Pinned": 3,
+                    "Pinned": 7,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 3,
@@ -9716,7 +9728,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 2,
+                    "Pinned": 6,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -9755,7 +9767,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 2,
+                    "Pinned": 6,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -9784,44 +9796,6 @@ export default [
                 }
             },
             {
-                "id": "a0b8fa61-c3c7-453e-9725-f262ca04411d",
-                "dirty": {
-                    "nodeType": true,
-                    "Pinned": true,
-                    "uiAttributeType": true,
-                    "groupParent": true,
-                    "text": true
-                },
-                "propertyVersions": {
-                    "text": 2,
-                    "nodeType": 1,
-                    "Pinned": 2,
-                    "uiAttributeType": 1,
-                    "groupParent": 1,
-                    "codeName": 1,
-                    "agentName": 1,
-                    "valueName": 1,
-                    "cssName": 1,
-                    "HttpRoute": 1,
-                    "uiName": 1,
-                    "Label": 1
-                },
-                "properties": {
-                    "text": "Description",
-                    "nodeType": "model-property",
-                    "Pinned": false,
-                    "uiAttributeType": "STRING",
-                    "groupParent": "db1a204b-e5ee-4c9a-89a1-7273281ddff4",
-                    "codeName": "Description",
-                    "agentName": "Description",
-                    "valueName": "Description",
-                    "cssName": "description",
-                    "HttpRoute": "description",
-                    "uiName": "Description",
-                    "Label": "Description"
-                }
-            },
-            {
                 "id": "3e22a736-3cf2-43d9-a8a0-1c1d8d681aee",
                 "dirty": {
                     "nodeType": true,
@@ -9833,7 +9807,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 2,
+                    "Pinned": 6,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -9872,7 +9846,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 2,
+                    "Pinned": 6,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -9913,7 +9887,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 2,
+                    "Pinned": 6,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -9954,7 +9928,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 2,
+                    "Pinned": 6,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -9980,6 +9954,252 @@ export default [
                     "uiName": "Number of Days Commuting",
                     "Label": "Number of Days Commuting",
                     "IsValueLabel": true
+                }
+            },
+            {
+                "id": "f28a710d-254e-48bb-b14c-621fceeb7c2b",
+                "dirty": {
+                    "nodeType": true,
+                    "Pinned": true,
+                    "groupParent": true,
+                    "text": true,
+                    "isDefaultProperty": true,
+                    "uiAttributeType": true
+                },
+                "propertyVersions": {
+                    "text": 2,
+                    "nodeType": 1,
+                    "Pinned": 6,
+                    "groupParent": 1,
+                    "codeName": 1,
+                    "agentName": 1,
+                    "valueName": 1,
+                    "cssName": 1,
+                    "HttpRoute": 1,
+                    "uiName": 1,
+                    "Label": 1,
+                    "isDefaultProperty": 1,
+                    "uiAttributeType": 1
+                },
+                "properties": {
+                    "text": "Owner",
+                    "nodeType": "model-property",
+                    "Pinned": false,
+                    "groupParent": "db1a204b-e5ee-4c9a-89a1-7273281ddff4",
+                    "codeName": "Owner",
+                    "agentName": "Owner",
+                    "valueName": "Owner",
+                    "cssName": "owner",
+                    "HttpRoute": "owner",
+                    "uiName": "Owner",
+                    "Label": "Owner",
+                    "isDefaultProperty": true,
+                    "uiAttributeType": "STRING"
+                }
+            },
+            {
+                "id": "d2e9553e-4cba-4984-9b55-9927233a0a13",
+                "dirty": {
+                    "nodeType": true,
+                    "Pinned": true,
+                    "groupParent": true,
+                    "text": true,
+                    "isDefaultProperty": true,
+                    "uiAttributeType": true
+                },
+                "propertyVersions": {
+                    "text": 2,
+                    "nodeType": 1,
+                    "Pinned": 6,
+                    "groupParent": 1,
+                    "codeName": 1,
+                    "agentName": 1,
+                    "valueName": 1,
+                    "cssName": 1,
+                    "HttpRoute": 1,
+                    "uiName": 1,
+                    "Label": 1,
+                    "isDefaultProperty": 1,
+                    "uiAttributeType": 1
+                },
+                "properties": {
+                    "text": "Id",
+                    "nodeType": "model-property",
+                    "Pinned": false,
+                    "groupParent": "db1a204b-e5ee-4c9a-89a1-7273281ddff4",
+                    "codeName": "Id",
+                    "agentName": "Id",
+                    "valueName": "Id",
+                    "cssName": "id",
+                    "HttpRoute": "id",
+                    "uiName": "Id",
+                    "Label": "Id",
+                    "isDefaultProperty": true,
+                    "uiAttributeType": "STRING"
+                }
+            },
+            {
+                "id": "a9c39899-4cd5-4839-b807-c82b65cb33f5",
+                "dirty": {
+                    "nodeType": true,
+                    "Pinned": true,
+                    "groupParent": true,
+                    "text": true,
+                    "isDefaultProperty": true,
+                    "uiAttributeType": true
+                },
+                "propertyVersions": {
+                    "text": 2,
+                    "nodeType": 1,
+                    "Pinned": 6,
+                    "groupParent": 1,
+                    "codeName": 1,
+                    "agentName": 1,
+                    "valueName": 1,
+                    "cssName": 1,
+                    "HttpRoute": 1,
+                    "uiName": 1,
+                    "Label": 1,
+                    "isDefaultProperty": 1,
+                    "uiAttributeType": 1
+                },
+                "properties": {
+                    "text": "Created",
+                    "nodeType": "model-property",
+                    "Pinned": false,
+                    "groupParent": "db1a204b-e5ee-4c9a-89a1-7273281ddff4",
+                    "codeName": "Created",
+                    "agentName": "Created",
+                    "valueName": "Created",
+                    "cssName": "created",
+                    "HttpRoute": "created",
+                    "uiName": "Created",
+                    "Label": "Created",
+                    "isDefaultProperty": true,
+                    "uiAttributeType": "DATETIME"
+                }
+            },
+            {
+                "id": "d0583ed8-3383-413e-8e3f-f472a21c2222",
+                "dirty": {
+                    "nodeType": true,
+                    "Pinned": true,
+                    "groupParent": true,
+                    "text": true,
+                    "isDefaultProperty": true,
+                    "uiAttributeType": true
+                },
+                "propertyVersions": {
+                    "text": 2,
+                    "nodeType": 1,
+                    "Pinned": 6,
+                    "groupParent": 1,
+                    "codeName": 1,
+                    "agentName": 1,
+                    "valueName": 1,
+                    "cssName": 1,
+                    "HttpRoute": 1,
+                    "uiName": 1,
+                    "Label": 1,
+                    "isDefaultProperty": 1,
+                    "uiAttributeType": 1
+                },
+                "properties": {
+                    "text": "Updated",
+                    "nodeType": "model-property",
+                    "Pinned": false,
+                    "groupParent": "db1a204b-e5ee-4c9a-89a1-7273281ddff4",
+                    "codeName": "Updated",
+                    "agentName": "Updated",
+                    "valueName": "Updated",
+                    "cssName": "updated",
+                    "HttpRoute": "updated",
+                    "uiName": "Updated",
+                    "Label": "Updated",
+                    "isDefaultProperty": true,
+                    "uiAttributeType": "DATETIME"
+                }
+            },
+            {
+                "id": "35bd71de-e03a-4ad5-a9f2-d076f43b28c6",
+                "dirty": {
+                    "nodeType": true,
+                    "Pinned": true,
+                    "groupParent": true,
+                    "text": true,
+                    "isDefaultProperty": true,
+                    "uiAttributeType": true
+                },
+                "propertyVersions": {
+                    "text": 2,
+                    "nodeType": 1,
+                    "Pinned": 6,
+                    "groupParent": 1,
+                    "codeName": 1,
+                    "agentName": 1,
+                    "valueName": 1,
+                    "cssName": 1,
+                    "HttpRoute": 1,
+                    "uiName": 1,
+                    "Label": 1,
+                    "isDefaultProperty": 1,
+                    "uiAttributeType": 1
+                },
+                "properties": {
+                    "text": "Deleted",
+                    "nodeType": "model-property",
+                    "Pinned": false,
+                    "groupParent": "db1a204b-e5ee-4c9a-89a1-7273281ddff4",
+                    "codeName": "Deleted",
+                    "agentName": "Deleted",
+                    "valueName": "Deleted",
+                    "cssName": "deleted",
+                    "HttpRoute": "deleted",
+                    "uiName": "Deleted",
+                    "Label": "Deleted",
+                    "isDefaultProperty": true,
+                    "uiAttributeType": "BOOLEAN"
+                }
+            },
+            {
+                "id": "85a4b244-d26e-4009-957c-5475cbde01cc",
+                "dirty": {
+                    "nodeType": true,
+                    "Pinned": true,
+                    "groupParent": true,
+                    "text": true,
+                    "isDefaultProperty": true,
+                    "uiAttributeType": true
+                },
+                "propertyVersions": {
+                    "text": 2,
+                    "nodeType": 1,
+                    "Pinned": 6,
+                    "groupParent": 1,
+                    "codeName": 1,
+                    "agentName": 1,
+                    "valueName": 1,
+                    "cssName": 1,
+                    "HttpRoute": 1,
+                    "uiName": 1,
+                    "Label": 1,
+                    "isDefaultProperty": 1,
+                    "uiAttributeType": 1
+                },
+                "properties": {
+                    "text": "Version",
+                    "nodeType": "model-property",
+                    "Pinned": false,
+                    "groupParent": "db1a204b-e5ee-4c9a-89a1-7273281ddff4",
+                    "codeName": "Version",
+                    "agentName": "Version",
+                    "valueName": "Version",
+                    "cssName": "version",
+                    "HttpRoute": "version",
+                    "uiName": "Version",
+                    "Label": "Version",
+                    "isDefaultProperty": true,
+                    "uiAttributeType": "INT"
                 }
             }
         ]
@@ -10695,7 +10915,7 @@ export default [
                 "Label": 2,
                 "nodeType": 2,
                 "groups": 1,
-                "Pinned": 3
+                "Pinned": 8
             },
             "properties": {
                 "text": "Coverage",
@@ -10710,7 +10930,7 @@ export default [
                 "groups": {
                     "group": "90ce0b7c-2b9c-423b-b0ae-02bb115efb91"
                 },
-                "Pinned": false
+                "Pinned": true
             }
         },
         "properties": [
@@ -10727,7 +10947,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 5,
+                    "Pinned": 10,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -10742,7 +10962,7 @@ export default [
                 "properties": {
                     "text": "Combined Single Unit",
                     "nodeType": "model-property",
-                    "Pinned": false,
+                    "Pinned": true,
                     "uiAttributeType": "STRING",
                     "groupParent": "90ce0b7c-2b9c-423b-b0ae-02bb115efb91",
                     "codeName": "CombinedSingleUnit",
@@ -10768,7 +10988,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 5,
+                    "Pinned": 10,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -10783,7 +11003,7 @@ export default [
                 "properties": {
                     "text": "Policy Term",
                     "nodeType": "model-property",
-                    "Pinned": false,
+                    "Pinned": true,
                     "uiAttributeType": "STRING",
                     "groupParent": "90ce0b7c-2b9c-423b-b0ae-02bb115efb91",
                     "codeName": "PolicyTerm",
@@ -10809,7 +11029,7 @@ export default [
                 "propertyVersions": {
                     "text": 4,
                     "nodeType": 1,
-                    "Pinned": 5,
+                    "Pinned": 10,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 3,
@@ -10824,7 +11044,7 @@ export default [
                 "properties": {
                     "text": "Personal Injury Protection",
                     "nodeType": "model-property",
-                    "Pinned": false,
+                    "Pinned": true,
                     "uiAttributeType": "STRING",
                     "groupParent": "90ce0b7c-2b9c-423b-b0ae-02bb115efb91",
                     "codeName": "PersonalInjuryProtection",
@@ -10850,7 +11070,7 @@ export default [
                 "propertyVersions": {
                     "text": 4,
                     "nodeType": 1,
-                    "Pinned": 5,
+                    "Pinned": 10,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 3,
@@ -10865,7 +11085,7 @@ export default [
                 "properties": {
                     "text": "Uninsured Motorist CSL",
                     "nodeType": "model-property",
-                    "Pinned": false,
+                    "Pinned": true,
                     "uiAttributeType": "STRING",
                     "groupParent": "90ce0b7c-2b9c-423b-b0ae-02bb115efb91",
                     "codeName": "UninsuredMotoristCSL",
@@ -10891,7 +11111,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 5,
+                    "Pinned": 10,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -10906,7 +11126,7 @@ export default [
                 "properties": {
                     "text": "Underinsured Motorist CSL",
                     "nodeType": "model-property",
-                    "Pinned": false,
+                    "Pinned": true,
                     "uiAttributeType": "STRING",
                     "groupParent": "90ce0b7c-2b9c-423b-b0ae-02bb115efb91",
                     "codeName": "UnderinsuredMotoristCSL",
@@ -10932,7 +11152,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 5,
+                    "Pinned": 10,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -10947,7 +11167,7 @@ export default [
                 "properties": {
                     "text": "Coverage Level",
                     "nodeType": "model-property",
-                    "Pinned": false,
+                    "Pinned": true,
                     "uiAttributeType": "STRING",
                     "groupParent": "90ce0b7c-2b9c-423b-b0ae-02bb115efb91",
                     "codeName": "CoverageLevel",
@@ -10973,7 +11193,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 5,
+                    "Pinned": 10,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -10988,7 +11208,7 @@ export default [
                 "properties": {
                     "text": "Underinsured Motorist",
                     "nodeType": "model-property",
-                    "Pinned": false,
+                    "Pinned": true,
                     "uiAttributeType": "STRING",
                     "groupParent": "90ce0b7c-2b9c-423b-b0ae-02bb115efb91",
                     "codeName": "UnderinsuredMotorist",
@@ -11014,7 +11234,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 5,
+                    "Pinned": 10,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -11029,7 +11249,7 @@ export default [
                 "properties": {
                     "text": "Bodily Injury",
                     "nodeType": "model-property",
-                    "Pinned": false,
+                    "Pinned": true,
                     "uiAttributeType": "STRING",
                     "groupParent": "90ce0b7c-2b9c-423b-b0ae-02bb115efb91",
                     "codeName": "BodilyInjury",
@@ -11055,7 +11275,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 5,
+                    "Pinned": 10,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -11070,7 +11290,7 @@ export default [
                 "properties": {
                     "text": "Property Damage",
                     "nodeType": "model-property",
-                    "Pinned": false,
+                    "Pinned": true,
                     "uiAttributeType": "STRING",
                     "groupParent": "90ce0b7c-2b9c-423b-b0ae-02bb115efb91",
                     "codeName": "PropertyDamage",
@@ -11096,7 +11316,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 5,
+                    "Pinned": 10,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -11111,7 +11331,7 @@ export default [
                 "properties": {
                     "text": "Uninsured Motorist",
                     "nodeType": "model-property",
-                    "Pinned": false,
+                    "Pinned": true,
                     "uiAttributeType": "STRING",
                     "groupParent": "90ce0b7c-2b9c-423b-b0ae-02bb115efb91",
                     "codeName": "UninsuredMotorist",
@@ -11137,7 +11357,7 @@ export default [
                 "propertyVersions": {
                     "text": 4,
                     "nodeType": 1,
-                    "Pinned": 5,
+                    "Pinned": 10,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 3,
@@ -11152,7 +11372,7 @@ export default [
                 "properties": {
                     "text": "Comprehensive Deductible",
                     "nodeType": "model-property",
-                    "Pinned": false,
+                    "Pinned": true,
                     "uiAttributeType": "STRING",
                     "groupParent": "90ce0b7c-2b9c-423b-b0ae-02bb115efb91",
                     "codeName": "ComprehensiveDeductible",
@@ -11178,7 +11398,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 5,
+                    "Pinned": 10,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -11193,7 +11413,7 @@ export default [
                 "properties": {
                     "text": "Drive Other Car",
                     "nodeType": "model-property",
-                    "Pinned": false,
+                    "Pinned": true,
                     "uiAttributeType": "STRING",
                     "groupParent": "90ce0b7c-2b9c-423b-b0ae-02bb115efb91",
                     "codeName": "DriveOtherCar",
@@ -11219,7 +11439,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 5,
+                    "Pinned": 10,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -11234,7 +11454,7 @@ export default [
                 "properties": {
                     "text": "New Vehicle Replacement",
                     "nodeType": "model-property",
-                    "Pinned": false,
+                    "Pinned": true,
                     "uiAttributeType": "STRING",
                     "groupParent": "90ce0b7c-2b9c-423b-b0ae-02bb115efb91",
                     "codeName": "NewVehicleReplacement",
@@ -11260,7 +11480,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 5,
+                    "Pinned": 10,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -11275,7 +11495,7 @@ export default [
                 "properties": {
                     "text": "Collision Deductible",
                     "nodeType": "model-property",
-                    "Pinned": false,
+                    "Pinned": true,
                     "uiAttributeType": "STRING",
                     "groupParent": "90ce0b7c-2b9c-423b-b0ae-02bb115efb91",
                     "codeName": "CollisionDeductible",
@@ -11301,7 +11521,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 5,
+                    "Pinned": 10,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -11316,7 +11536,7 @@ export default [
                 "properties": {
                     "text": "Roadside Assistance",
                     "nodeType": "model-property",
-                    "Pinned": false,
+                    "Pinned": true,
                     "uiAttributeType": "STRING",
                     "groupParent": "90ce0b7c-2b9c-423b-b0ae-02bb115efb91",
                     "codeName": "RoadsideAssistance",
@@ -11342,7 +11562,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 5,
+                    "Pinned": 10,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -11357,7 +11577,7 @@ export default [
                 "properties": {
                     "text": "Better Car Replacement",
                     "nodeType": "model-property",
-                    "Pinned": false,
+                    "Pinned": true,
                     "uiAttributeType": "STRING",
                     "groupParent": "90ce0b7c-2b9c-423b-b0ae-02bb115efb91",
                     "codeName": "BetterCarReplacement",
@@ -11383,7 +11603,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 5,
+                    "Pinned": 10,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -11398,7 +11618,7 @@ export default [
                 "properties": {
                     "text": "Loss of Use",
                     "nodeType": "model-property",
-                    "Pinned": false,
+                    "Pinned": true,
                     "uiAttributeType": "STRING",
                     "groupParent": "90ce0b7c-2b9c-423b-b0ae-02bb115efb91",
                     "codeName": "LossofUse",
@@ -11424,7 +11644,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 5,
+                    "Pinned": 10,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -11439,7 +11659,7 @@ export default [
                 "properties": {
                     "text": "Auto Loan/Lease Coverage",
                     "nodeType": "model-property",
-                    "Pinned": false,
+                    "Pinned": true,
                     "uiAttributeType": "STRING",
                     "groupParent": "90ce0b7c-2b9c-423b-b0ae-02bb115efb91",
                     "codeName": "AutoLoanLeaseCoverage",
@@ -11465,7 +11685,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 5,
+                    "Pinned": 10,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -11480,7 +11700,7 @@ export default [
                 "properties": {
                     "text": "Ride Sharing",
                     "nodeType": "model-property",
-                    "Pinned": false,
+                    "Pinned": true,
                     "uiAttributeType": "STRING",
                     "groupParent": "90ce0b7c-2b9c-423b-b0ae-02bb115efb91",
                     "codeName": "RideSharing",
@@ -11506,7 +11726,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 5,
+                    "Pinned": 10,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -11521,7 +11741,7 @@ export default [
                 "properties": {
                     "text": "AV and Customized Equipment",
                     "nodeType": "model-property",
-                    "Pinned": false,
+                    "Pinned": true,
                     "uiAttributeType": "STRING",
                     "groupParent": "90ce0b7c-2b9c-423b-b0ae-02bb115efb91",
                     "codeName": "AVandCustomizedEquipment",
@@ -11546,7 +11766,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 5,
+                    "Pinned": 10,
                     "uiAttributeType": 2,
                     "groupParent": 1,
                     "codeName": 2,
@@ -11560,7 +11780,7 @@ export default [
                 "properties": {
                     "text": "Exclude Liability Coverage from Vehicle",
                     "nodeType": "model-property",
-                    "Pinned": false,
+                    "Pinned": true,
                     "uiAttributeType": "BOOLEAN",
                     "groupParent": "90ce0b7c-2b9c-423b-b0ae-02bb115efb91",
                     "codeName": "ExcludeLiabilityCoveragefromVehicle",
@@ -11585,7 +11805,7 @@ export default [
                 "propertyVersions": {
                     "text": 2,
                     "nodeType": 1,
-                    "Pinned": 3,
+                    "Pinned": 8,
                     "groupParent": 1,
                     "codeName": 1,
                     "agentName": 1,
@@ -11600,7 +11820,7 @@ export default [
                 "properties": {
                     "text": "Owner",
                     "nodeType": "model-property",
-                    "Pinned": false,
+                    "Pinned": true,
                     "groupParent": "90ce0b7c-2b9c-423b-b0ae-02bb115efb91",
                     "codeName": "Owner",
                     "agentName": "Owner",
@@ -11626,7 +11846,7 @@ export default [
                 "propertyVersions": {
                     "text": 2,
                     "nodeType": 1,
-                    "Pinned": 3,
+                    "Pinned": 8,
                     "groupParent": 1,
                     "codeName": 1,
                     "agentName": 1,
@@ -11641,7 +11861,7 @@ export default [
                 "properties": {
                     "text": "Id",
                     "nodeType": "model-property",
-                    "Pinned": false,
+                    "Pinned": true,
                     "groupParent": "90ce0b7c-2b9c-423b-b0ae-02bb115efb91",
                     "codeName": "Id",
                     "agentName": "Id",
@@ -11667,7 +11887,7 @@ export default [
                 "propertyVersions": {
                     "text": 2,
                     "nodeType": 1,
-                    "Pinned": 3,
+                    "Pinned": 8,
                     "groupParent": 1,
                     "codeName": 1,
                     "agentName": 1,
@@ -11682,7 +11902,7 @@ export default [
                 "properties": {
                     "text": "Created",
                     "nodeType": "model-property",
-                    "Pinned": false,
+                    "Pinned": true,
                     "groupParent": "90ce0b7c-2b9c-423b-b0ae-02bb115efb91",
                     "codeName": "Created",
                     "agentName": "Created",
@@ -11708,7 +11928,7 @@ export default [
                 "propertyVersions": {
                     "text": 2,
                     "nodeType": 1,
-                    "Pinned": 3,
+                    "Pinned": 8,
                     "groupParent": 1,
                     "codeName": 1,
                     "agentName": 1,
@@ -11723,7 +11943,7 @@ export default [
                 "properties": {
                     "text": "Updated",
                     "nodeType": "model-property",
-                    "Pinned": false,
+                    "Pinned": true,
                     "groupParent": "90ce0b7c-2b9c-423b-b0ae-02bb115efb91",
                     "codeName": "Updated",
                     "agentName": "Updated",
@@ -11749,7 +11969,7 @@ export default [
                 "propertyVersions": {
                     "text": 2,
                     "nodeType": 1,
-                    "Pinned": 3,
+                    "Pinned": 8,
                     "groupParent": 1,
                     "codeName": 1,
                     "agentName": 1,
@@ -11764,7 +11984,7 @@ export default [
                 "properties": {
                     "text": "Deleted",
                     "nodeType": "model-property",
-                    "Pinned": false,
+                    "Pinned": true,
                     "groupParent": "90ce0b7c-2b9c-423b-b0ae-02bb115efb91",
                     "codeName": "Deleted",
                     "agentName": "Deleted",
@@ -11790,7 +12010,7 @@ export default [
                 "propertyVersions": {
                     "text": 2,
                     "nodeType": 1,
-                    "Pinned": 3,
+                    "Pinned": 8,
                     "groupParent": 1,
                     "codeName": 1,
                     "agentName": 1,
@@ -11805,7 +12025,7 @@ export default [
                 "properties": {
                     "text": "Version",
                     "nodeType": "model-property",
-                    "Pinned": false,
+                    "Pinned": true,
                     "groupParent": "90ce0b7c-2b9c-423b-b0ae-02bb115efb91",
                     "codeName": "Version",
                     "agentName": "Version",
@@ -11831,7 +12051,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 1,
+                    "Pinned": 6,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -11846,7 +12066,7 @@ export default [
                 "properties": {
                     "text": "Bodily Injury Property",
                     "nodeType": "model-property",
-                    "Pinned": false,
+                    "Pinned": true,
                     "uiAttributeType": "STRING",
                     "groupParent": "90ce0b7c-2b9c-423b-b0ae-02bb115efb91",
                     "codeName": "BodilyInjuryProperty",
@@ -11856,6 +12076,88 @@ export default [
                     "HttpRoute": "bodily/injury/property",
                     "uiName": "Bodily Injury Property",
                     "Label": "Bodily Injury Property",
+                    "IsValueLabel": true
+                }
+            },
+            {
+                "id": "e3a3be33-2f87-44ca-8235-84140cce7c76",
+                "dirty": {
+                    "nodeType": true,
+                    "Pinned": true,
+                    "uiAttributeType": true,
+                    "groupParent": true,
+                    "text": true,
+                    "IsValueLabel": true
+                },
+                "propertyVersions": {
+                    "text": 3,
+                    "nodeType": 1,
+                    "Pinned": 3,
+                    "uiAttributeType": 1,
+                    "groupParent": 1,
+                    "codeName": 2,
+                    "agentName": 2,
+                    "valueName": 2,
+                    "cssName": 2,
+                    "HttpRoute": 2,
+                    "uiName": 2,
+                    "Label": 2,
+                    "IsValueLabel": 1
+                },
+                "properties": {
+                    "text": "Vehicle",
+                    "nodeType": "model-property",
+                    "Pinned": true,
+                    "uiAttributeType": "STRING",
+                    "groupParent": "90ce0b7c-2b9c-423b-b0ae-02bb115efb91",
+                    "codeName": "Vehicle",
+                    "agentName": "Vehicle",
+                    "valueName": "Vehicle",
+                    "cssName": "vehicle",
+                    "HttpRoute": "vehicle",
+                    "uiName": "Vehicle",
+                    "Label": "Vehicle",
+                    "IsValueLabel": true
+                }
+            },
+            {
+                "id": "75f08f99-7eb9-446c-8416-b2682c861a63",
+                "dirty": {
+                    "nodeType": true,
+                    "Pinned": true,
+                    "uiAttributeType": true,
+                    "groupParent": true,
+                    "text": true,
+                    "IsValueLabel": true
+                },
+                "propertyVersions": {
+                    "text": 3,
+                    "nodeType": 1,
+                    "Pinned": 1,
+                    "uiAttributeType": 1,
+                    "groupParent": 1,
+                    "codeName": 2,
+                    "agentName": 2,
+                    "valueName": 2,
+                    "cssName": 2,
+                    "HttpRoute": 2,
+                    "uiName": 2,
+                    "Label": 2,
+                    "IsValueLabel": 1
+                },
+                "properties": {
+                    "text": "Option",
+                    "nodeType": "model-property",
+                    "Pinned": true,
+                    "uiAttributeType": "STRING",
+                    "groupParent": "90ce0b7c-2b9c-423b-b0ae-02bb115efb91",
+                    "codeName": "Option",
+                    "agentName": "Option",
+                    "valueName": "Option",
+                    "cssName": "option",
+                    "HttpRoute": "option",
+                    "uiName": "Option",
+                    "Label": "Option",
                     "IsValueLabel": true
                 }
             }
@@ -16020,7 +16322,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 1,
+                    "Pinned": 2,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -16035,7 +16337,7 @@ export default [
                 "properties": {
                     "text": "Driver",
                     "nodeType": "model-property",
-                    "Pinned": true,
+                    "Pinned": false,
                     "uiAttributeType": "STRING",
                     "groupParent": "01c3633e-233b-4e62-abac-205615f862ca",
                     "codeName": "Driver",
@@ -16061,7 +16363,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 1,
+                    "Pinned": 2,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -16076,7 +16378,7 @@ export default [
                 "properties": {
                     "text": "Incident Category",
                     "nodeType": "model-property",
-                    "Pinned": true,
+                    "Pinned": false,
                     "uiAttributeType": "STRING",
                     "groupParent": "01c3633e-233b-4e62-abac-205615f862ca",
                     "codeName": "IncidentCategory",
@@ -16101,7 +16403,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 1,
+                    "Pinned": 2,
                     "uiAttributeType": 2,
                     "groupParent": 1,
                     "codeName": 2,
@@ -16115,7 +16417,7 @@ export default [
                 "properties": {
                     "text": "Date",
                     "nodeType": "model-property",
-                    "Pinned": true,
+                    "Pinned": false,
                     "uiAttributeType": "DATETIME",
                     "groupParent": "01c3633e-233b-4e62-abac-205615f862ca",
                     "codeName": "Date",
@@ -16139,7 +16441,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 1,
+                    "Pinned": 2,
                     "uiAttributeType": 2,
                     "groupParent": 1,
                     "codeName": 2,
@@ -16153,7 +16455,7 @@ export default [
                 "properties": {
                     "text": "Bodily Injury Amount Paid",
                     "nodeType": "model-property",
-                    "Pinned": true,
+                    "Pinned": false,
                     "uiAttributeType": "INT",
                     "groupParent": "01c3633e-233b-4e62-abac-205615f862ca",
                     "codeName": "BodilyInjuryAmountPaid",
@@ -16177,7 +16479,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 1,
+                    "Pinned": 2,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -16191,7 +16493,7 @@ export default [
                 "properties": {
                     "text": "Remarks",
                     "nodeType": "model-property",
-                    "Pinned": true,
+                    "Pinned": false,
                     "uiAttributeType": "STRING",
                     "groupParent": "01c3633e-233b-4e62-abac-205615f862ca",
                     "codeName": "Remarks",
@@ -16215,7 +16517,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 1,
+                    "Pinned": 2,
                     "uiAttributeType": 2,
                     "groupParent": 1,
                     "codeName": 2,
@@ -16229,7 +16531,7 @@ export default [
                 "properties": {
                     "text": "Comp Collision Property Damage Towning Amount Paid",
                     "nodeType": "model-property",
-                    "Pinned": true,
+                    "Pinned": false,
                     "uiAttributeType": "INT",
                     "groupParent": "01c3633e-233b-4e62-abac-205615f862ca",
                     "codeName": "CompCollisionPropertyDamageTowningAmountPaid",
@@ -16253,7 +16555,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 1,
+                    "Pinned": 2,
                     "uiAttributeType": 2,
                     "groupParent": 1,
                     "codeName": 2,
@@ -16267,7 +16569,7 @@ export default [
                 "properties": {
                     "text": "Number Of Days License Suspended",
                     "nodeType": "model-property",
-                    "Pinned": true,
+                    "Pinned": false,
                     "uiAttributeType": "INT",
                     "groupParent": "01c3633e-233b-4e62-abac-205615f862ca",
                     "codeName": "NumberOfDaysLicenseSuspended",
@@ -16292,7 +16594,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 1,
+                    "Pinned": 2,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -16307,7 +16609,7 @@ export default [
                 "properties": {
                     "text": "Violation Type",
                     "nodeType": "model-property",
-                    "Pinned": true,
+                    "Pinned": false,
                     "uiAttributeType": "STRING",
                     "groupParent": "01c3633e-233b-4e62-abac-205615f862ca",
                     "codeName": "ViolationType",
@@ -16370,7 +16672,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 1,
+                    "Pinned": 2,
                     "uiAttributeType": 2,
                     "groupParent": 1,
                     "codeName": 2,
@@ -16384,7 +16686,7 @@ export default [
                 "properties": {
                     "text": "Date",
                     "nodeType": "model-property",
-                    "Pinned": true,
+                    "Pinned": false,
                     "uiAttributeType": "DATETIME",
                     "groupParent": "84c9febc-62f4-4eff-9d61-fc7ae5b3a119",
                     "codeName": "Date",
@@ -16408,7 +16710,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 1,
+                    "Pinned": 2,
                     "uiAttributeType": 2,
                     "groupParent": 1,
                     "codeName": 2,
@@ -16422,7 +16724,7 @@ export default [
                 "properties": {
                     "text": "End Date",
                     "nodeType": "model-property",
-                    "Pinned": true,
+                    "Pinned": false,
                     "uiAttributeType": "DATETIME",
                     "groupParent": "84c9febc-62f4-4eff-9d61-fc7ae5b3a119",
                     "codeName": "EndDate",
@@ -16447,7 +16749,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 1,
+                    "Pinned": 2,
                     "uiAttributeType": 2,
                     "groupParent": 1,
                     "codeName": 2,
@@ -16462,7 +16764,7 @@ export default [
                 "properties": {
                     "text": "State",
                     "nodeType": "model-property",
-                    "Pinned": true,
+                    "Pinned": false,
                     "uiAttributeType": "STATE_PROVINCE",
                     "groupParent": "84c9febc-62f4-4eff-9d61-fc7ae5b3a119",
                     "codeName": "State",
@@ -16487,7 +16789,7 @@ export default [
                 "propertyVersions": {
                     "text": 3,
                     "nodeType": 1,
-                    "Pinned": 1,
+                    "Pinned": 2,
                     "uiAttributeType": 1,
                     "groupParent": 1,
                     "codeName": 2,
@@ -16501,7 +16803,7 @@ export default [
                 "properties": {
                     "text": "Case Number",
                     "nodeType": "model-property",
-                    "Pinned": true,
+                    "Pinned": false,
                     "uiAttributeType": "STRING",
                     "groupParent": "84c9febc-62f4-4eff-9d61-fc7ae5b3a119",
                     "codeName": "CaseNumber",

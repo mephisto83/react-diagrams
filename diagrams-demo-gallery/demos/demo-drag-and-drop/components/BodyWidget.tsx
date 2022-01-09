@@ -138,10 +138,17 @@ export class BodyWidget extends React.Component<BodyWidgetProps> {
 							var data = JSON.parse(event.dataTransfer.getData('storm-diagram-node'));
 							var nodesCount = _.keys(this.props.app.getDiagramEngine().getModel().getNodes()).length;
 
-							var node: RQNodeModel = this.generateNode(data);
-							var point = this.props.app.getDiagramEngine().getRelativeMousePoint(event);
-							node.setPosition(point);
-							this.props.app.getDiagramEngine().getModel().addNode(node);
+							var nodes: RQNodeModel | RQNodeModel[] = this.generateNode(data);
+							if (!Array.isArray(nodes)) {
+								nodes = [nodes];
+							}
+							nodes.map(node => {
+
+								var point = this.props.app.getDiagramEngine().getRelativeMousePoint(event);
+								node.setPosition(point);
+								this.props.app.getDiagramEngine().getModel().addNode(node);
+
+							})
 							this.forceUpdate();
 						}}
 						onDragOver={(event) => {
@@ -155,7 +162,7 @@ export class BodyWidget extends React.Component<BodyWidgetProps> {
 			</S.Body>
 		);
 	}
-	generateNode(data: any): RQNodeModel {
+	generateNode(data: any): RQNodeModel | RQNodeModel[] {
 		let model = models.find(v => v.model.id === data.id);
 		if (model) {
 			let node = new RQNodeModel({
@@ -185,14 +192,19 @@ export class BodyWidget extends React.Component<BodyWidgetProps> {
 		}
 		else if (data.type === CONVERTER) {
 			let name = data.name || prompt('Conversion');
-			let node = new RQNodeModel({
-				name,
-				model: name,
-				color: '#CAFE48',
-				rqType: RQTypes.Converter
-			});
+			let names = name.split(';')
+			return names.map(name => {
 
-			return node;
+				let node = new RQNodeModel({
+					name,
+					model: name,
+					color: '#CAFE48',
+					rqType: RQTypes.Converter
+				});
+
+				return node;
+
+			})
 		}
 		return null;
 	}

@@ -1,5 +1,8 @@
-import { NodeModel, DefaultPortModel, DefaultNodeModel } from '@projectstorm/react-diagrams';
+import { NodeModel, DefaultPortModel, DefaultNodeModel, DefaultNodeWidget } from '@projectstorm/react-diagrams';
 import { BaseModelOptions } from '@projectstorm/react-canvas-core';
+import { AbstractReactFactory, GenerateWidgetEvent } from '@projectstorm/react-canvas-core';
+import { DiagramEngine } from '@projectstorm/react-diagrams'
+import React from 'react';
 
 export enum RQTypes {
     Model = 'Model',
@@ -16,6 +19,19 @@ export interface RQNodeModelOptions extends BaseModelOptions {
     properties?: RQProperty[];
     rqType?: RQTypes;
 }
+export class RQFactory extends AbstractReactFactory<RQNodeModel, DiagramEngine> {
+    constructor() {
+        super('rq-model');
+    }
+
+    generateModel(): RQNodeModel {
+        return new RQNodeModel();
+    }
+
+    generateReactWidget(event: GenerateWidgetEvent<RQNodeModel>): JSX.Element {
+        return <DefaultNodeWidget node={event.model} engine={this.engine} />;
+    }
+}
 
 export class RQNodeModel extends DefaultNodeModel {
     color?: string;
@@ -25,6 +41,7 @@ export class RQNodeModel extends DefaultNodeModel {
 
     constructor(options: RQNodeModelOptions = {}) {
         super({
+            type: 'rq-model',
             ...options,
         });
         this.model = options.model || '';
