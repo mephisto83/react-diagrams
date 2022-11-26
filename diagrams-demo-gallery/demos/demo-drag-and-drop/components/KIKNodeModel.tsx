@@ -26,6 +26,7 @@ export class RQFactory extends AbstractReactFactory<RQNodeModel, DiagramEngine> 
 
     generateModel(): RQNodeModel {
         return new RQNodeModel();
+
     }
 
     generateReactWidget(event: GenerateWidgetEvent<RQNodeModel>): JSX.Element {
@@ -77,7 +78,12 @@ export class RQNodeModel extends DefaultNodeModel {
                 break;
         }
     }
-
+    getInPort(): DefaultPortModel {
+        return this.portsIn[0]
+    }
+    getOutPort(): DefaultPortModel {
+        return this.portsOut[0]
+    }
     serialize() {
         return {
             ...super.serialize(),

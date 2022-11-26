@@ -3,12 +3,13 @@ import * as _ from 'lodash';
 import { TrayWidget } from './TrayWidget';
 import { Application } from '../Application';
 import { TrayItemWidget } from './TrayItemWidget';
-import { DefaultNodeModel } from '@projectstorm/react-diagrams';
+import { DefaultLinkModel, DefaultPortModel } from '@projectstorm/react-diagrams';
 import { CanvasWidget } from '@projectstorm/react-canvas-core';
 import { DemoCanvasWidget } from '../../helpers/DemoCanvasWidget';
 import styled from '@emotion/styled';
 import models from '../data/models';
 import forms from '../data/forms';
+import { Point, Rectangle } from '@projectstorm/geometry';
 import { RQNodeModel, RQTypes } from './KIKNodeModel';
 
 export interface BodyWidgetProps {
@@ -83,6 +84,7 @@ function copyTextToClipboard(text) {
 const MODEL = 'MODEL';
 const FORM = 'FORM';
 const CONVERTER = 'CONVERTER';
+const GEN_CONVERTER = 'GEN_CONVERTER';
 export class BodyWidget extends React.Component<BodyWidgetProps> {
 	generateTrayItemWidgets() {
 		let model_s = models.map(model => {
@@ -109,8 +111,22 @@ export class BodyWidget extends React.Component<BodyWidgetProps> {
 				model={{ type: CONVERTER, name: 'convertToDate' }}
 				name={'Date Convert'} color='#CAFE48' />
 		]
+		let engine = this.props.app.getDiagramEngine();
+		let model = engine.getModel();
+		let entities = model.getSelectedEntities();
+		if (entities.length) {
+			let temp: any = entities[0];
+			if (temp.properties) {
+				temp.properties.filter(x => x && x.id).map((v, index) => {
+					convert_s.push(<TrayItemWidget
+						key={`date-${v.id}-${index}`}
+						model={{ type: CONVERTER, name: 'Generate Converts ' + v.id }}
+						name={'Generate Convert ' + v.id} color='#CAFE48' />)
+				})
+			}
+		}
 
-		return [...convert_s, ...model_s, ...form_s];
+		return [...model_s, ...form_s, ...convert_s];
 	}
 	render() {
 		return (
@@ -119,11 +135,66 @@ export class BodyWidget extends React.Component<BodyWidgetProps> {
 					<div className="title">Form Map</div>
 					<div className="title" style={{ padding: 5, margin: 3 }} onClick={() => {
 						let res = this.props.app.getDiagramEngine().getModel().serialize();
-						console.log(JSON.stringify(res, null, 4))
-						copyTextToClipboard(JSON.stringify(res, null, 4));
+						copyTextToClipboard(`export default ${JSON.stringify(res, null, 4)}`);
 					}}>Export</div>
 					<div className="title" style={{ padding: 5, margin: 3 }} onClick={() => {
+						let res = this.props.app.getDiagramEngine().getModel().serialize();
+						let converts = [];
+						res.layers.map(layer => {
+							Object.values(layer.models).map((mv: any) => {
+								switch (mv.rqType) {
+									case CONVERTER:
+									case 'Converter':
+										let name = mv.name
+										let template = `['${name}']: async (val: any, formProperty: FormProperty) => {
+											if(val!==undefined) {
+												return  convertToLabel(val,  \`\${providers.SAFECO} ${name}\`, LinkTypes.KIK_COVERAGE);
+											}
+											return val;
+										}`
+										converts.push(template);
+										break;
+								}
+							})
+						})
+						copyTextToClipboard((converts.join(',\n')));
+					}}>Export Convert Funcs</div>
+
+					<div className="title" style={{ padding: 5, margin: 3 }} onClick={() => {
+						let res = this.props.app.getDiagramEngine().getModel().getSelectedEntities();
+						console.log(res)
+						let links: DefaultLinkModel[] = res.filter(x => (x as DefaultLinkModel).getSourcePort) as DefaultLinkModel[];
+						let temps: any[] = [];
+						links.map(link => {
+							let sourcePort = link.getTargetPort() as DefaultPortModel;
+							let targetPort = link.getSourcePort() as DefaultPortModel;
+							let sourcePOS = sourcePort.getPosition();
+							let targetPOS = targetPort.getPosition();
+							let newPoint = new Point(sourcePOS.x + (targetPOS.x - sourcePOS.x) / 2,
+								sourcePOS.y + (targetPOS.y - sourcePOS.y) / 2)
+							let converters = this.generateNode({
+								name: sourcePort.getName(),
+								type: CONVERTER
+							}) as RQNodeModel[];
+							let converter = converters[0];
+							converter.setPosition(newPoint);
+							let inPort = converter.getInPort();
+							let outPort = converter.getOutPort();
+							let newlink = sourcePort.link(inPort);
+							temps.push(converter, newlink, outPort.link(targetPort));
+						})
+						this.props.app.getDiagramEngine().getModel().addAll(...temps);
+						links.forEach(l => {
+							l.remove();
+						})
+						this.forceUpdate();
+
+					}}>Insert Converter</div>
+					<div className="title" style={{ padding: 5, margin: 3 }} onClick={() => {
 						let data = prompt('paste model');
+						if (data.startsWith('export default')) {
+							data = data.substring('export default'.length);
+						}
 						if (this.props.onDeserialize) {
 							this.props.onDeserialize(data)
 						}
@@ -134,7 +205,7 @@ export class BodyWidget extends React.Component<BodyWidgetProps> {
 						{this.generateTrayItemWidgets()}
 					</TrayWidget>
 					<S.Layer
-						onDrop={(event) => {
+						onDrop={async (event) => {
 							var data = JSON.parse(event.dataTransfer.getData('storm-diagram-node'));
 							var nodesCount = _.keys(this.props.app.getDiagramEngine().getModel().getNodes()).length;
 
@@ -142,13 +213,18 @@ export class BodyWidget extends React.Component<BodyWidgetProps> {
 							if (!Array.isArray(nodes)) {
 								nodes = [nodes];
 							}
-							nodes.map(node => {
+							nodes.map((node, index) => {
 
 								var point = this.props.app.getDiagramEngine().getRelativeMousePoint(event);
 								node.setPosition(point);
-								this.props.app.getDiagramEngine().getModel().addNode(node);
+								if (index) {
+									node.setPosition({ ...point, x: point.x + 100 } as any);
+								}
 
-							})
+							});
+
+							this.props.app.getDiagramEngine().getModel().addAll(...nodes);
+
 							this.forceUpdate();
 						}}
 						onDragOver={(event) => {
@@ -162,7 +238,7 @@ export class BodyWidget extends React.Component<BodyWidgetProps> {
 			</S.Body>
 		);
 	}
-	generateNode(data: any): RQNodeModel | RQNodeModel[] {
+	generateNode(data: any, addLink?: any): RQNodeModel | RQNodeModel[] {
 		let model = models.find(v => v.model.id === data.id);
 		if (model) {
 			let node = new RQNodeModel({
@@ -205,6 +281,24 @@ export class BodyWidget extends React.Component<BodyWidgetProps> {
 				return node;
 
 			})
+		}
+		else if (data.type === GEN_CONVERTER) {
+			let engine = this.props.app.getDiagramEngine();
+			let model = engine.getModel();
+			let entities = model.getSelectedEntities();
+			if (entities.length) {
+				let temp: any = entities[0];
+				return temp.properties.map((v, index) => {
+					return new RQNodeModel({
+						name: `convert_${v.id}`,
+						model: `convert_${v.id}-${index}`,
+						color: '#CAFE48',
+						rqType: RQTypes.Converter
+					});
+
+				})
+			}
+			debugger;
 		}
 		return null;
 	}
